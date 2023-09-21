@@ -1,0 +1,244 @@
+/*Page Elements*/
+
+body {
+    margin: 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+aside {
+    float: left;
+
+}
+
+header {
+    position: relative;
+    font-size: 110%;
+    text-align: center;
+    background-color: #000000;
+    padding: 5px;
+}
+
+nav {
+    position: fixed;
+    background-color: #636363;
+    padding: 3px 10px;
+    height: 50em;
+}
+
+article {
+    margin: 1%;
+    padding-left: 1%;
+}
+
+section {
+    margin: 1%;
+    padding-left: 1%;
+}
+
+main {
+    padding: 10px;
+    margin-left: 18%;
+}
+
+footer {
+    position: absolute;
+    text-align: left;
+    padding-left: 20%;
+    background-color: #000000;
+}
+
+figure {
+    border: dotted 6px;
+    border-color: deeppink;
+
+}
+
+figcaption {
+    color: #4FF8BF;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 10px;
+}
+
+/*Table Elements*/
+
+table {
+    border: dashed magenta 5px;
+    width: 100%;
+}
+
+th,
+td {
+    border: solid orange 2px;
+    text-align: center;
+}
+
+caption {
+    color: chartreuse;
+}
+
+th {
+    background-color: gray;
+    border-color: dodgerblue
+}
+
+th:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 0px;
+}
+
+tr:nth-of-type(odd) {
+    background-color: white;
+    color: black;
+}
+
+td:hover {
+    background-color: dimgray;
+    color: lightgray;
+}
+
+tr:nth-of-type(even) {
+    background-color: black;
+    color: white;
+}
+
+/*Link Styles*/
+
+a {
+    color: #ffcc42
+}
+
+a:link {
+    text-decoration: none
+}
+
+a:active {
+    color: #c4c4c4;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffffff;
+    font-size: 130%;
+}
+
+/*Text*/
+
+h1 {
+    color: #d60014;
+    font-style: italic;
+}
+
+h2 {
+    color: #ff1e39;
+}
+
+p {
+    color: #d4af37;
+    font-style: oblique;
+    font-family: serif;
+}
+
+ul {
+    color: coral;
+    list-style: georgian;
+}
+
+ol {
+    color: aqua;
+    list-style-type: lower-roman;
+}
+
+/*Classes*/
+
+.funky {
+    background-color: azure;
+    text-decoration-style: wavy;
+    font-family: monospace;
+}
+
+.p1 {
+    color: #ffffff;
+    font-size: 110%
+
+}
+
+.p2 {
+    color: #6b6b6b;
+    font-size: 120%;
+    text-decoration-style: dashed;
+}
+
+.p3 {
+    color: deepskyblue;
+    text-transform: capitalize;
+    background-color: firebrick;
+}
+
+.p4 {
+    display: block;
+    color: darkkhaki;
+    text-align: right
+}
+
+.p5 {
+    display: inline;
+    color: aliceblue;
+    font-family: monospace
+}
+
+.p6 {
+    display: inline-block;
+    color: chocolate;
+    font-style: normal;
+    text-decoration: overline;
+
+}
+
+.page1 {
+    background-image: url(../images/page1image.jpg);
+    background-color: gray;
+}
+
+.page2 {
+    background-image: url(../images/page2image.jpg);
+    background-color: gray;
+}
+
+.page3 {
+    background-image: url(../images/page3image.jpg);
+    background-color: gray;
+}
+
+.page4 {
+    background-image: url(../images/page4image.jpg);
+    background-color: gray;
+}
+
+.td1 {
+    background-color: greenyellow;
+    color: green;
+    border-color: lime;
+}
+
+.td2 {
+    background-color: mediumvioletred;
+    color: red;
+    border-color: palevioletred;
+}
+
+#myname {
+    color: red;
+    background-color: black;
+    font-size: 130%;
+    font-style: normal
+}
+
+p em {
+    background-color: antiquewhite
+}
